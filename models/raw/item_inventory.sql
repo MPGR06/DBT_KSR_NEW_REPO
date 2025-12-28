@@ -44,8 +44,8 @@
 ) }}
 
  SELECT
-    item_id:: VARCHAR(100)           AS item_id,
-    item_name ::VARCHAR(100)        AS item_name,
+    item_id:: VARCHAR(100)         AS item_id,
+    item_name ::VARCHAR(100)       AS item_name,
     category ::VARCHAR(100)        AS category,
     variant_name:: VARCHAR(100)    AS variant_name,
     fuel_type ::VARCHAR(100)       AS fuel_type
