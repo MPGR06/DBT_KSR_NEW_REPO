@@ -11,7 +11,7 @@ sources:
     tables:
       - name: inventory
         identifier: raw_inventory
-        
+
   - name : warehouse_loc
     schema: raw
     database: supply_chain

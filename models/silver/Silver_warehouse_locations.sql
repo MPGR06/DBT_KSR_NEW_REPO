@@ -18,4 +18,4 @@ SELECT
         CURRENT_TIMESTAMP AS ingestion_ts
     {% endif %}
 
-FROM {{ src.database }}.{{ target.schema }}_{{ src.schema }}.{{ src.identifier }}
+FROM {{ target.database }}.{{ target.schema }}_{{ src.schema }}.{{ src.identifier }}
